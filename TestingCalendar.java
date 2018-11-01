@@ -27,10 +27,10 @@ public class TestingCalendar {
 		driver.findElement(By.xpath("//*[@id='taplc_trip_search_home_default_0']/div[2]/div[1]/div/span/input")).click();
 		driver.findElement(By.xpath("//*[@id='taplc_trip_search_home_default_0']/div[2]/div[1]/div/span/input")).sendKeys("five star");
 		Thread.sleep(1000L);
-		driver.findElement(By.xpath("//*[@id='BODY_BLOCK_JQUERY_REFLOW']/div[12]/div[1]/div/ul/li[2]/div/div[2]/span[1]/span")).click();
+		driver.findElement(By.xpath("//*[@id=\"taplc_trip_search_home_default_0\"]/div[2]/div[2]/div/span[1]")).click();
 		Thread.sleep(1000L);
 		
-		String date = "12 Oct-Oct 2018";
+		String date = "12 Nov-Nov 2018";
 		String daychkin = "28";
 		String splitter[] = date.split("-");
 		String day_monthchkin = splitter[0];
@@ -60,8 +60,10 @@ public static void daymonthyearchkin(String daychkin,String day_monthchkin,Strin
 		Timeout.seconds(1000L);
 		
 		List<WebElement> monthYear = driver.findElements(By.xpath("//span[@class='rsdc-month-title']"));
+		
+		System.out.println(monthYear.size());
 		 
-		for(int j=0;j<=monthYear.size() ;j++ ) {
+		for(int j=0;j<=0 ;j++ ) {
 			
 			System.out.println(monthYear.get(j).getText());
 			
