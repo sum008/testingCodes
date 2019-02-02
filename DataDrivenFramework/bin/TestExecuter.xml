@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "TestNG">
+
+<test name="Login test">
+<classes>
+
+<class name = "dd_testCases.Logintest">
+
+</class>
+</classes>
+</test>
+
+<test name="Login test 2">
+<classes>
+
+<class name = "dd_testCases.Logintest2">
+
+</class>
+</classes>
+</test>
+ 
+</suite>

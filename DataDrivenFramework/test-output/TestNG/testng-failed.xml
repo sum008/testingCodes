@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNG]">
+  <test name="Login test 2(failed)">
+    <classes>
+      <class name="dd_testCases.Logintest2">
+        <methods>
+          <include name="initializations"/>
+          <include name="skip"/>
+          <include name="Login"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- dd_testCases.Logintest2 -->
+      <class name="dd_testCases.Logintest">
+        <methods>
+          <include name="skip"/>
+        </methods>
+      </class> <!-- dd_testCases.Logintest -->
+    </classes>
+  </test> <!-- Login test 2(failed) -->
+</suite> <!-- Failed suite [TestNG] -->
