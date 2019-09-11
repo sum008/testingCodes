@@ -20,12 +20,12 @@ public class Whatsapp {
 		
 		int run=50;
 		for(int i=0;i<run; i++){
-		driver.findElement(By.xpath("//span[@data-icon='smiley']")).click();
-		driver.findElement(By.xpath("//span[@data-icon='emoji-people']")).click();
-		driver.findElement(By.xpath("//span[@class='b75 emojik wa'][@data-emoji-index='7']")).click();
-		driver.findElement(By.xpath("//div[@class='_2S1VP copyable-text selectable-text']")).sendKeys("Some text");
-		driver.findElement(By.xpath("//span[@class='b75 emojik wa'][@data-emoji-index='7']")).click();
-        driver.findElement(By.xpath("//span[@data-icon='send']")).click();  ////span[@class='_3EFt_']
+			driver.findElement(By.xpath("//span[@data-icon='smiley']")).click();
+			driver.findElement(By.xpath("//span[@data-icon='emoji-people']")).click();
+			driver.findElement(By.xpath("//span[@class='b75 emojik wa'][@data-emoji-index='7']")).click();
+			driver.findElement(By.xpath("//div[@class='_2S1VP copyable-text selectable-text']")).sendKeys("Some text");
+			driver.findElement(By.xpath("//span[@class='b75 emojik wa'][@data-emoji-index='7']")).click();
+			driver.findElement(By.xpath("//span[@data-icon='send']")).click();  ////span[@class='_3EFt_']
 		}
 		
 		
