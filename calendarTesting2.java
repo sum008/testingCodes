@@ -39,7 +39,7 @@ public class calendarTesting2 {
 		if(driver.findElement(By.xpath("/html/body/div[3]/div[3]/ul[1]/li[2]")).getText().equals(Mon_year)) {
 			
 			System.out.println("month is : " + driver.findElement(By.xpath("/html/body/div[3]/div[3]/ul[1]/li[2]")).getText());
-			System.out.println("if loop");
+			System.out.println("if block");
 			
 			for(int i=1; i<=element.size();i++) {
 				
@@ -65,7 +65,7 @@ public class calendarTesting2 {
 		}
 		else if(!(driver.findElement(By.xpath("/html/body/div[3]/div[3]/ul[1]/li[2]")).getText().equals("December 2017"))) {
 			driver.findElement(By.xpath("/html/body/div[3]/div[3]/ul[1]/li[1]")).click();
-			System.out.println("We are in else loop");
+			System.out.println("We are in else block");
 		 	Thread.sleep(1000L);
 		 	dateCheck(Mon_year, day);
 		 	return;
